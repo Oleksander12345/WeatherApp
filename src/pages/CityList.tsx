@@ -1,4 +1,3 @@
-// src/components/CityList.tsx
 import { useAppSelector } from '../store/hooks';
 import CityCard from './CityCard';
 

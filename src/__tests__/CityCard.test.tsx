@@ -38,7 +38,6 @@ describe('CityCard component', () => {
     const refreshBtn = screen.getByText(/Update/i);
     fireEvent.click(refreshBtn);
 
-    // не перевіряємо fetch прямо, лише чи клік не ламає
     expect(refreshBtn).toBeInTheDocument();
   });
 });

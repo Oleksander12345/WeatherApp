@@ -1,4 +1,3 @@
-// src/store/forecastSlice.ts
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { ForecastEntry } from '../types';

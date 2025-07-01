@@ -36,7 +36,6 @@ describe('AddCityForm component', () => {
       fireEvent.click(button);
     });
 
-    // Перевіряємо, що поле очистилось після сабміту
     expect(input).toHaveValue('');
   });
 });

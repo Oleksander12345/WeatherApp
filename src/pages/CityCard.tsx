@@ -1,4 +1,3 @@
-// src/components/CityCard.tsx
 import React from 'react';
 import { useAppDispatch } from '../store/hooks';
 import { fetchWeatherByCity, removeCity } from '../store/weatherSlice';
